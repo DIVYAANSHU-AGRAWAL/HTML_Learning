@@ -1,0 +1,30 @@
+/* The animation code */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  .anim{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;       /* infinite causes it to run forever */
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+
+
+
+  }
+
+
+  /* ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+linear - Specifies an animation with the same speed from start to end
+ease-in - Specifies an animation with a slow start
+ease-out - Specifies an animation with a slow end
+ease-in-out - Specifies an animation with a slow start and end */

@@ -1,0 +1,33 @@
+
+body{
+    background-image: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;  
+}
+
+.nav-menu a{
+    margin-right: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.l1{
+    background-image: url(./sprite.jpg);
+    background-position: 0.001px 20px;
+    width:0.001%;
+    padding:50px;
+}
+.l1:hover{
+    background-image: url(./sprite.jpg);
+    background-position: 300px 150px;
+    width:0.001%;
+    padding:50px;
+
+}
+@media screen and (max-width:900px){
+    body{
+        background-color: black;
+    }
+}

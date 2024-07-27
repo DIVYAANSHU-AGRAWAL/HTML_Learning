@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <h1 class="MainHeading">Payment Form</h1>
+    <hr>
+    <form>
+        <Label for = "n1">Name</Label>
+        <br/>
+        <input type="text" name="myname" id="n1" placeholder="Name">
+        <br/>
+        <br/>
+        <Label for = "pwd">Password</Label>
+        <br/>
+        <input type="password" name="mypwd" id="pwd" placeholder="Password">
+        <br/>
+        <br/>
+        <Label for="e1">Email ID</Label><br/>
+        <input type="email" name="myemail" id="e1" placeholder="Email">
+        <br/>
+        <br/>
+        <Label for="d1">Date</Label><br/>
+        <input type="date" name="mydate" id="d1" placeholder="Date">
+        <br/>
+        <br/>
+        <Label for="num1">Enter Bonus</Label><br/>
+        <input type="number" id="num1" placeholder="Bonus">
+        <br/>
+        <br/>
+        <Label for="ch1">Above 18 Years age?</Label><br/>
+        <input type="checkbox" name="myeligibility" id="ch1" checked>
+        <br/><br/>
+        <div>
+            <fieldset>
+        <legend>Gender:</legend>
+        Male: <input type="radio" name="mygender"><br/><br/>
+        Female: <input type="radio" name="mygender">
+    </fieldset>
+        <br/><br/>
+    </div>
+    <div>
+        <label for="t1">Write about yourself</label><br/>
+        <textarea rows="10" cols="30" id="t1"></textarea>
+    </div>
+    <br/>
+    <br/>
+    <label for="car">Select Car:</label>
+    <select name="mycar" id="car">
+        <option value="1">Skoda</option>
+        <option value="2">Swift</option>
+        <option value="3">GWagon</option>
+    </select>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit now"></button><br/>
+    <input type="reset" value="Reset"></button>
+    
+
+    </form>
+</body>
+</html>
